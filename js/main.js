@@ -7,7 +7,7 @@ let pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
 
 function formValidation() {
-    
+    preventDefault();
     let userinput = {};
     let errors = [];
 
@@ -58,5 +58,5 @@ function formValidation() {
 
 
 }
-preventDefault();
+
 button.addEventListener('click', formValidation);
