@@ -1,0 +1,198 @@
+/* 
+Colors: 
+
+#DDD
+#F5F5F5
+#6495ED
+
+Fonts: 
+
+font-family: Arial, Helvetica, sans-serif;
+
+
+*/
+
+/* font size  */
+
+body {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    font-size: 2rem;
+    display: block;
+}
+
+#btn {
+    background-color: #6495ED;
+    border: none;
+    border-radius: 0.2rem;
+    height: 2rem;
+    color: white;
+    width: 100%;
+}
+
+input {
+    border-radius: 0.3rem;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+}
+
+.wrapper {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+/* Mobile design  */
+
+
+
+/* form layout  */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 226, 226);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.parentlabel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+label {
+    margin-bottom: 0.3rem;
+}
+
+#message {
+    height: 20vh;
+    border-radius: 0.3rem;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Tablet designs  */
+@media only screen and (min-width: 40rem) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        background-color: rgb(226, 226, 226);
+        border-radius: 1rem;
+        min-width: 35rem;
+    }
+
+    .parentlabel {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        /* width: 100%; */
+        gap: 1.2rem;
+
+    }
+
+    .parentlabel2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        box-sizing: border-box;
+    }
+
+    .label {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0.4rem; */
+        width: 100%;
+    }
+
+    label {
+        margin-bottom: 0.3rem;
+    }
+
+    #message {
+        height: 20vh;
+        box-sizing: border-box;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: rgb(197, 197, 197);
+    }
+
+    #btn {
+        width: 20%;
+    }
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Desktop designs  */
+@media only screen and (min-width: 50rem) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(226, 226, 226);
+        border-radius: 1rem;
+        max-width: 50rem;
+        min-width: 35rem;
+    }
+
+    .parentlabel {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        width: 100%;
+        gap: 1.2rem;
+
+    }
+
+    .parentlabel2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        box-sizing: border-box;
+    }
+
+    .label {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0.4rem; */
+        width: 100%;
+    }
+
+    label {
+        margin-bottom: 0.3rem;
+    }
+
+    #message {
+        height: 20vh;
+        box-sizing: border-box;
+        border-radius: 0.3rem;
+        border-style: solid;
+        border-color: rgb(197, 197, 197);
+    }
+
+    #btn {
+        width: 20%;
+    }
+}
